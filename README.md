@@ -29,3 +29,9 @@ After `Move(1)` all the inner pegs have been moved to the outer ring, we have wo
 # Programmatic solution
 
 This repository recreates this puzzle (`package puzzle`) and a solver (`package solver`), which brute forces the puzzle to find solutions.
+
+You can also play the game by running:
+
+```sh
+go run cmd/game/main.go
+```
