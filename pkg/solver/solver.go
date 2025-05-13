@@ -1,7 +1,7 @@
 package solver
 
 import (
-	"github.com/DaveVodrazka/concentricringspuzzle/puzzle"
+	"github.com/DaveVodrazka/concentricringspuzzle/pkg/puzzle"
 )
 
 type Solver interface {

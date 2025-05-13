@@ -36,7 +36,7 @@ func NewPuzzle(n int) Puzzle {
 }
 
 func (p *PuzzleImpl) Show() {
-	fmt.Printf("Out: %#v\nInn: %#v\n\n", p.Outer, p.Inner)
+	fmt.Printf("Out: %v\nInn: %v\n\n", p.Outer, p.Inner)
 }
 
 func (p *PuzzleImpl) rotate() {

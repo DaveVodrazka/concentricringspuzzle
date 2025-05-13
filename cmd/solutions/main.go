@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/DaveVodrazka/concentricringspuzzle/puzzle"
-	"github.com/DaveVodrazka/concentricringspuzzle/solver"
+	"github.com/DaveVodrazka/concentricringspuzzle/pkg/puzzle"
+	"github.com/DaveVodrazka/concentricringspuzzle/pkg/solver"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 		solutions := s.Solve(p)
 		solutionsCount := len(solutions)
 		if solutionsCount > 0 {
-			fmt.Printf("Size %d had %d solutions\n\n", n, solutionsCount)
+			fmt.Printf("Size %d has %d solutions\nSample solution: %#v\n\n", n, solutionsCount, solutions[0])
 		}
 	}
 }
